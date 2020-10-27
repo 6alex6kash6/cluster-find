@@ -4,8 +4,7 @@ module.exports = {
   mode: 'development',
   devServer: {
     contentBase: 'dist',
-    port: 8000,
-    hot: true
+    port: 4060,
   },
   devtool: 'inline-source-map',
   plugins: [
