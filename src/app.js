@@ -11,7 +11,7 @@ export default class App extends Application {
     });
     this.colorsMatrix = [];
     this.clustersMatrix = []
-    document.body.appendChild(this.view)
+    document.getElementById('canvas-container').appendChild(this.view)
     this.init()
   }
 
